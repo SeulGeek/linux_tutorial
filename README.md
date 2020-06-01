@@ -1,6 +1,11 @@
 # linux_tutorial
 리눅스 설치부터 실행까지 기초 과정 튜토리얼
 
+# 필요한 개념
+ - 운영체제
+ - 커널
+ - 쉘
+
 # 설치 
  
 1. Virtual box 설치 ([virtualbox](https://www.virtualbox.org/wiki/Downloads))
