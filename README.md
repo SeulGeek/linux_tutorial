@@ -2,9 +2,20 @@
 리눅스 설치부터 실행까지 기초 과정 튜토리얼
 
 # 필요한 개념
- - 운영체제
+ - [운영체제](#운영체제)
+   - 운영체제란?
  - 커널
  - 쉘
+
+<!-- 운영체제 -->
+# 운영체제
+## 운영체제란?
+An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.  
+: 운영체제란 컴퓨터 하드웨어, 소프트웨어를 관리하고, 컴퓨터 프로그램을 사용하기 위해 공통된 서비스를 제공하는 시스템 소프트 웨어이다. 
+
+### Reference
+- wiki : https://en.wikipedia.org/wiki/Operating_system
+- 운영체제란 무엇인가? : https://coding-factory.tistory.com/300
 
 # 설치 
  
