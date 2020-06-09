@@ -4,7 +4,7 @@
 # 필요한 개념
  - [운영체제](#운영체제)
  - [커널](#커널)
- - 쉘
+ - [쉘](#쉘)
 
 <!-- 운영체제 -->
 # 운영체제
@@ -36,10 +36,28 @@ The kernel is a computer program at the core of a computer's operating system wi
    -> 커널은 깔끔하고 일관성 있는 인터페이스를 하드웨어에 제공하기 위해 몇 가지 하드웨어 추상화들로 구현된다. (추상화)  
     +) 하드웨어 추상화 : 같은 종류의 장비에 대한 공통 명령어의 집합
  
- 
-### Reference
-- wiki 
-- 운영체제란 무엇인가? : https://coding-factory.tistory.com/300
+<!-- 쉘 -->
+# 쉘
+## 쉘(Shell)과 커맨드(commands)
+> commands are just text you type in the terminal
+- 커맨드는 터미널에서 입력한 문자일 뿐이다.
+
+> commands are interpreted by the shell  
+- 커맨드는 쉘에 의해 번역된다
+
+> Different shells can interpret the same text in different ways.  
+- 쉘은 다양한 형태의 쉘이 있으며 같은 글자를 다른 방식으로 해석한다.  
+ ex) gift를 입력 -> (쉘이 영어로 해석) -> '선물'이라는 뜻이 나옴
+     gift를 입력 -> (쉘이 독일어로 해석) -> '독'이라는 뜻이 나옴  
+     
+> The terminal is the window to the shell.  
+- 터미널은 쉘과 이어주는 중간 역할을 한다. +) 터미널 없이 커맨드 입력을 못함.
+
+> +) Commands are case-sensitive.  
+- +) 커맨드는 대/소문자를 고려해야한다. 그렇지 않으면 에러가 발생할 수 있다.
+
+-대부분 리눅스,우분투는 bash shell을 사용한다
+
 
 # 설치 
  
@@ -50,9 +68,15 @@ The kernel is a computer program at the core of a computer's operating system wi
 2. Ubuntu(우분투) 설치 ([Ubuntu](https://ubuntu.com/download/desktop))
  - 작성 기준 최신 빌드 : Ubuntu 20.04 LTS
  
+ 
  # Etc
  * 리눅스 베스트 강좌 리스트  
    - [9 Best Linux Course, Certification, Training and Tutorial Online [2020 UPDATED]](https://digitaldefynd.com/best-linux-tutorial-certification-training-course/)
    - [Udemy) 리눅스 베스트 강좌](https://digitaldefynd.com/best-linux-tutorial-certification-training-course/)
  * [리눅스 기초 문서](https://ruinick.tistory.com/203)
  * [한국 우분투 커뮤니티](https://www.ubuntu-kr.org/)
+
+
+# Reference
+- wiki 
+- 운영체제란 무엇인가? : https://coding-factory.tistory.com/300
