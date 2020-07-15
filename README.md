@@ -68,6 +68,21 @@ The kernel is a computer program at the core of a computer's operating system wi
 2. Ubuntu(우분투) 설치 ([Ubuntu](https://ubuntu.com/download/desktop))
  - 작성 기준 최신 빌드 : Ubuntu 20.04 LTS
  
+
+# 핵심 내용
+- Linux Commands
+ > Commands = CommandName -options inputs  
+  - ex) cal -A 1 12 2017 --> -A는 after, 즉 1달후에 캘린더 보여줌  
+     cal -B은 Back, 전의 달을 보여줌  
+- CommandNames need to be on the shell's search path.  
+ex) echo $PATH: 경로찾기
+- Commands operate on inputs
+- Options modify a commands's behaviour
+- Some Commands can have long form and short form options.
+- Shrot form options have one dash(-) and Long form options have two dashes(--)  
+ex) long form options으로는 --after, --before
+
+
  
  # Etc
  * 리눅스 베스트 강좌 리스트  
